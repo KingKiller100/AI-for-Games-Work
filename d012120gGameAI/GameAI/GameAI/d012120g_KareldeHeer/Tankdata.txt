@@ -1,0 +1,1 @@
+<tank studentName="d012120gTank" tankType="2" tankPath="d012120g_KareldeHeer\TankImages\d012120gTankmEDIUM.png" manPath="d012120g_KareldeHeer\TankImages\d012120gTankMediumMan.png" x="450" y="200" health="150" bullets="100" rockets="25" mines="11" turnRate="5" fuel="90" mass="1" maxspeed="75" leftCannon="0" rightCannon="1"/>

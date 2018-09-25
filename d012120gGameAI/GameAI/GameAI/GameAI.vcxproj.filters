@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="TinyXML">
+      <UniqueIdentifier>{1d544555-3274-48e7-8786-45b7fe063987}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XML Data Files">
+      <UniqueIdentifier>{b9834924-ea92-46ba-8dd5-33a1015f005b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Student Tanks">
+      <UniqueIdentifier>{d1fa8cd0-d1ff-4fbd-b059-86b22ca912f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="d012120g_KareldeHeer">
+      <UniqueIdentifier>{e1840dc0-2790-41d9-a6f7-70cbcdfb2521}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="d012120g_KareldeHeer\Source Files">
+      <UniqueIdentifier>{11944a6c-d0c8-4819-a13a-d63d9497fc78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="d012120g_KareldeHeer\Header Files">
+      <UniqueIdentifier>{f77a2329-f97e-4529-98d6-6c073e24b188}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Waypoint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WaypointManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseTank.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C2DMatrix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Collisions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Commons.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Constants.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ControlledTank.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScreen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScreenLevel1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScreenManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ObstacleManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PickUpManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Projectile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjectileManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TankManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture2D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TinyXML\tinystr.h">
+      <Filter>TinyXML</Filter>
+    </ClInclude>
+    <ClInclude Include="TinyXML\tinyxml.h">
+      <Filter>TinyXML</Filter>
+    </ClInclude>
+    <ClInclude Include="DumbTank.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="d012120g_KareldeHeer\d012120gTank.h">
+      <Filter>d012120g_KareldeHeer\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="d012120g_KareldeHeer\d012120gSteeringBehaviours.h">
+      <Filter>d012120g_KareldeHeer\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="d012120g_KareldeHeer\d012120gStructures.h">
+      <Filter>d012120g_KareldeHeer\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="d012120g_KareldeHeer\d012120gPathFinder.h">
+      <Filter>d012120g_KareldeHeer\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="d012120g_KareldeHeer\d012120gDecisionManager.h">
+      <Filter>d012120g_KareldeHeer\Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WaypointManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseTank.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Collisions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ControlledTank.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScreen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScreenLevel1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScreenManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelMap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ObstacleManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PickUpManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Projectile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ProjectileManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TankManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture2D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Waypoint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TinyXML\tinystr.cpp">
+      <Filter>TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="TinyXML\tinyxml.cpp">
+      <Filter>TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="TinyXML\tinyxmlerror.cpp">
+      <Filter>TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="TinyXML\tinyxmlparser.cpp">
+      <Filter>TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="DumbTank.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="d012120g_KareldeHeer\d012120gTank.cpp">
+      <Filter>d012120g_KareldeHeer\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="d012120g_KareldeHeer\d012120gSteeringBehaviours.cpp">
+      <Filter>d012120g_KareldeHeer\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="d012120g_KareldeHeer\d012120gPathFinder.cpp">
+      <Filter>d012120g_KareldeHeer\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="d012120g_KareldeHeer\d012120gDecisionManager.cpp">
+      <Filter>d012120g_KareldeHeer\Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="SDL\SDL2.lib" />
+    <Library Include="SDL\SDL2_image.lib" />
+    <Library Include="SDL\SDL2_mixer.lib" />
+    <Library Include="SDL\SDL2main.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="XML Data Files\GameAI.xml">
+      <Filter>XML Data Files</Filter>
+    </Xml>
+    <Xml Include="XML Data Files\GameAIOneBuilding.xml">
+      <Filter>XML Data Files</Filter>
+    </Xml>
+    <Xml Include="XML Data Files\Arena.xml">
+      <Filter>XML Data Files</Filter>
+    </Xml>
+    <Xml Include="XML Data Files\TankData.xml">
+      <Filter>XML Data Files</Filter>
+    </Xml>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="XML Data Files\LevelData.xml">
+      <Filter>XML Data Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>
